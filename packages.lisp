@@ -164,6 +164,9 @@
            #:*swank-pprint-bindings*
            #:*record-repl-results*
            #:*inspector-verbose*
+	   ;; This is for hacking repl interactivity into event loops launched via the repl
+	   #:*emacs-connection*
+	   #:handle-requests
            ;; This is SETFable.
            #:debug-on-swank-error
            ;; These are re-exported directly from the backend:
